@@ -1,0 +1,120 @@
+/* ===== BASE ===== */
+
+body {
+    margin: 1;
+    background-color: #1e1e1e;
+    font-family: "Times New Roman", serif;
+}
+
+/* ===== DOCUMENT ===== */
+
+.page {
+    width: 900px;
+    margin: 40px auto;
+    border: 2px solid black;
+    background: white;
+}
+
+.document {
+    width: 794px;
+    margin: 20px auto;
+    padding: 40px 25px;
+    background: white;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+/* ===== HEADER ===== */
+
+.header-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.header-table td {
+    padding: 0;
+    vertical-align: middle;
+}
+
+/* Left aligned */
+.left-box {
+    width: 33%;
+    text-align: left;
+}
+
+/* Center aligned */
+.center-box {
+    width: 33%;
+    text-align: center;
+}
+
+/* Right aligned */
+.right-box {
+    width: 33%;
+    text-align: right;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ===== HEADINGS ===== */
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+/* ===== PARAGRAPH ===== */
+
+.document p {
+    text-align: justify;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+/* ===== HR LINE ===== */
+
+hr {
+    border: none;
+    border-top: 0.8px solid #444;
+    margin: 12px 0;
+}
+.right-box {
+    width: 33%;
+    text-align: right;   /* aligns content to right */
+}
+
+.mini-table {
+    border-collapse: collapse;
+    margin-left: auto;   /* pushes table to right */
+    margin-right: 0;
+}
+
+.mini-table td {
+    padding: 2px 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.course-table th,
+.course-table td {
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.course-table th {
+    text-align: center;
+}
